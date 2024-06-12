@@ -31,7 +31,7 @@ The `dashboard.py` script creates an interactive dashboard using Streamlit. The 
 
 1. **Clone the Repository:**
    ```sh
-   git clone https://github.com/RithikPorandla/financial-data-dashboard.git
+   git clone https://github.com/RithikPorandla/financial-data-dashboard-with-Streamlit-and-MySql.git
    cd financial-data-dashboard
    ```
 
