@@ -7,14 +7,14 @@ This project demonstrates how to create a financial data dashboard using Python,
 ## Components
 
 ### 1. Data Fetching Script
-The `fetch_alpha_vantage_data.py` script is responsible for fetching weekly stock data from the Alpha Vantage API and storing it in a MySQL database. The script includes functions to:
+The `finance.py` script is responsible for fetching weekly stock data from the Alpha Vantage API and storing it in a MySQL database. The script includes functions to:
 - Fetch data from the API.
 - Connect to the MySQL database.
 - Create the necessary table in the database.
 - Insert the fetched data into the database.
 
 ### 2. Streamlit Dashboard
-The `dashboard.py` script creates an interactive dashboard using Streamlit. The dashboard:
+The `dashboard_stock.py` script creates an interactive dashboard using Streamlit. The dashboard:
 - Connects to the MySQL database.
 - Fetches the stored stock data.
 - Calculates and displays KPIs such as average closing price, highest closing price, lowest closing price, and total volume.
