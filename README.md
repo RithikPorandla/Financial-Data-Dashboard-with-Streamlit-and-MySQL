@@ -1,10 +1,5 @@
 # Financial-Data-Dashboard-with-Streamlit-and-MySQL
 
-### Title
-**Financial Data Dashboard with Streamlit and MySQL**
-
-### Report
-
 ## Overview
 
 This project demonstrates how to create a financial data dashboard using Python, Streamlit, and MySQL. The dashboard fetches weekly stock data from the Alpha Vantage API, stores it in a MySQL database, and visualizes key performance indicators (KPIs) and historical data in an interactive Streamlit app.
