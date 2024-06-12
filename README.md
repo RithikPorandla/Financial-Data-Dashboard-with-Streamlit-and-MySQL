@@ -20,49 +20,6 @@ The `dashboard.py` script creates an interactive dashboard using Streamlit. The 
 - Calculates and displays KPIs such as average closing price, highest closing price, lowest closing price, and total volume.
 - Displays a table of the historical stock data.
 
-## Setup Instructions
-
-### Prerequisites
-- Python 3.x
-- MySQL Server
-- Alpha Vantage API Key
-
-### Steps
-
-1. **Clone the Repository:**
-   ```sh
-   git clone https://github.com/RithikPorandla/financial-data-dashboard-with-Streamlit-and-MySql.git
-   cd financial-data-dashboard
-   ```
-
-2. **Install Dependencies:**
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-3. **Set Up MySQL Database:**
-   - Ensure MySQL server is running.
-   - Create a database named `financial_data`.
-   - Update the database connection details in `finance.py` and `dashboard_stock.py` with your MySQL credentials.
-
-4. **Fetch the Data:**
-   ```sh
-   python fetch_alpha_vantage_data.py
-   ```
-
-5. **Run the Streamlit Dashboard:**
-   ```sh
-   streamlit run dashboard.py
-   ```
-
-## Files
-
-- `fetch_alpha_vantage_data.py`: Script to fetch stock data from the Alpha Vantage API and insert it into the MySQL database.
-- `dashboard.py`: Streamlit app to display financial data and KPIs.
-- `requirements.txt`: List of dependencies required for the project.
-- `README.md`: Project documentation.
-- `.gitignore`: Specifies files and directories to be ignored by Git.
-
 ## Example Output
 
 ### KPIs
